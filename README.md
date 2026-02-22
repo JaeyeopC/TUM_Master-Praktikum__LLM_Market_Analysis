@@ -3,7 +3,6 @@
 ## Overview
 This project presents a proof-of-concept for an LLM-driven market analysis system, specifically designed to generate structured insurance product comparisons across multiple companies in Germany. By leveraging advanced prompting techniques and evaluation metrics, we aim to enhance the accuracy, consistency, and comprehensiveness of LLM-generated product comparison data.
 
-## Name 
 
 ## Features
 - **Automated Data Processing**: Uses a Kedro-based data pipeline for efficient and reproducible data collection, filtering, and processing.
