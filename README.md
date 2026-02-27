@@ -19,14 +19,7 @@ The repository describes an **end-to-end pipeline** designed to produce product 
 It begins with **data collection by crawling insurer sites** to gather product pages, followed by filtering and transformation steps to remove irrelevant content and convert or normalize content for downstream processing.
 
 Next, the pipeline performs **LLM-based extraction and classification of product details**.  
-The project explicitly states that **GPT-4o** is the primary model used for classification and comparison generation, and that multiple prompting strategies are applied, including:
-
-- Role-based prompting
-- Iterative prompting
-- Structured output prompting
-- Constraint-based prompting
-
-Finally, the system generates **product comparisons** by identifying similar products across providers using **embeddings and cosine similarity**.
+The project explicitly states that **GPT-4o** is the primary model used for classification and comparison generation, and that multiple prompting strategies. Finally, the system generates **product comparisons** by identifying similar products across providers using **embeddings and cosine similarity**.
 
 ---
 
