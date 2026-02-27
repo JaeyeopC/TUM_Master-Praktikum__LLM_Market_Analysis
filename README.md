@@ -24,11 +24,6 @@ The project explicitly states that **GPT-4o** is the primary model used for clas
 ---
 
 ## Repository Structure and Deliverables 
-The repository root contains a small set of top-level items, including a dedicated implementation directory and two PDF deliverables (**a report and a poster**).
-
-The main implementation is organized under a **Kedro project structure**, with explicit references to configuration, datasets, notebooks, tests, and modular pipeline components.
-
-The repository layout includes the following major elements:
 ```
 NLP Competitive Market Analysis/
 │── .viz/
@@ -58,13 +53,6 @@ NLP Competitive Market Analysis/
 │── poetry.lock
 
 ```
-
-Two PDF files are present at the repository root and appear intended as formal deliverables for dissemination:
-
-- Final project report  
-- Project poster  
-
-The project is released under the **MIT License**.
 
 ---
 
