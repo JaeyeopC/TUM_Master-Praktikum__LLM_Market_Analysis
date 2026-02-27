@@ -117,35 +117,6 @@ The repository reports three main findings:
 3. **Combining structured prompting with metric-based evaluation improves reliability** of generated product comparisons.
 
 ---
-
-## Limitations
-
-Despite promising results, several limitations remain in the current pipeline.
-
-First, the evaluation framework relies primarily on **LLM-as-a-judge metrics (via TruLens)**.  
-While this approach enables scalable evaluation, previous studies highlight that LLM judges may introduce biases, such as favoring more verbose outputs or being sensitive to prompt design. As a result, evaluation scores may not always perfectly align with expert human judgment.
-
-Second, the performance of the system is **highly sensitive to prompt design**.  
-Small variations in prompt structure, instructions, or output formatting can significantly influence extraction accuracy and classification consistency. This makes prompt optimization an iterative and sometimes unstable process.
-
-Third, the system currently focuses on a **limited set of insurance providers and product pages**.  
-Although the pipeline is designed to be scalable, the present dataset may not fully capture the diversity of product structures and terminology across the broader insurance market.
-
----
-
-## Future Work
-
-Future work will focus on improving both **prompt optimization strategies and evaluation robustness**.
-
-One direction is the exploration of more systematic prompt optimization techniques, such as automated prompt search, reflection-based prompt refinement, or chain-of-thought style prompting.
-
-Another important extension is the development of **hybrid evaluation frameworks** that combine LLM-based metrics with human expert annotations to improve reliability and reduce potential evaluation bias.
-
-Additionally, the pipeline could be expanded to include **a broader range of insurance providers and product categories**, enabling more comprehensive competitive market analysis.
-
-Finally, further research could explore **alternative evaluation metrics and retrieval strategies**, including embedding-based validation methods or multi-model evaluation approaches to increase robustness.
-
----
 ## Configuration & Setup
 
 ### Base Configuration
