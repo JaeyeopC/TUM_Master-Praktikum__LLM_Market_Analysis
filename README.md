@@ -93,7 +93,7 @@ This staged design follows **reproducible data engineering practices**, allowing
 
 ---
 
-# Methods and Technologies
+# Methods 
 
 The project is orchestrated using **Kedro**, a framework designed to build robust, modular, and maintainable data pipelines with consistent project structure and pipeline assembly.
 
