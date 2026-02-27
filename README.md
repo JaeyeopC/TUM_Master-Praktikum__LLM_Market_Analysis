@@ -173,9 +173,6 @@ The `conf/base/` folder contains **shared configuration files** used across the 
 
 These configurations include project-level settings such as dataset definitions, pipeline parameters, and other non-sensitive settings that can be safely shared among team members.
 
-⚠️ **Important:**  
-Do **not store access credentials or sensitive information** in the `base` configuration folder.
-
 For more information about Kedro configuration, see the official documentation:  
 https://docs.kedro.org/en/stable/configuration/configuration_basics.html
 
@@ -242,7 +239,6 @@ Dataset configurations are defined in:
 `conf/base/catalog.yml`
 
 Supported dataset types can be found in the Kedro datasets documentation:
-
 https://docs.kedro.org/projects/kedro-datasets/en/kedro-datasets-6.0.0/api/kedro_datasets.html
 
 
