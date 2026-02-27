@@ -83,7 +83,7 @@ The repository’s `data/` directory reflects a **multi-stage processing pipelin
 
 The stages include:
 
-- **Crawled data** – raw insurer webpages  
+- **Crawled data** – raw data crawled from insurance company webpages  
 - **Filtered product pages** – irrelevant content removed  
 - **Filtered product markdowns** – normalized text representations  
 - **Extracted product details** – structured fields derived from text  
