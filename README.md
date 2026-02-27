@@ -8,6 +8,8 @@ The project was developed as part of a **Master-Praktikum at the Technical Unive
 
 At a high level, the system operationalizes a **“crawl → clean → extract → classify → compare → evaluate”** workflow through a reproducible pipeline architecture, aiming to improve **accuracy, consistency, and coverage of LLM-generated product comparison outputs** via prompt engineering and automated evaluation.
 
+For more details about the methodology and results, please refer to the project report and poster included in this repository.
+
 ---
 
 # What the Project Builds
