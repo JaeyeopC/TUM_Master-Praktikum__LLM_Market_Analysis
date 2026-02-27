@@ -181,9 +181,11 @@ Dataset configurations are defined in: `conf/base/catalog.yml`
 Node names refer to directory names under `LAB-COMPETITIVE-ANALYSIS/lab_competitive_analysis/`
 
 Supported dataset types can be found in the Kedro datasets documentation:
+
 https://docs.kedro.org/projects/kedro-datasets/en/kedro-datasets-6.0.0/api/kedro_datasets.html
 
 For more information about Kedro configuration, see the official documentation:  
+
 https://docs.kedro.org/en/stable/configuration/configuration_basics.html
 
 
