@@ -181,7 +181,7 @@ Pipeline names are located in: `LAB-COMPETITIVE-ANALYSIS/lab_competitive_analysi
 
 Dataset configurations are defined in: `conf/base/catalog.yml`
 
-Node names refers to directories under `LAB-COMPETITIVE-ANALYSIS/lab_competitive_analysis/`
+Node names refer to directory names under `LAB-COMPETITIVE-ANALYSIS/lab_competitive_analysis/`
 
 Supported dataset types can be found in the Kedro datasets documentation:
 https://docs.kedro.org/projects/kedro-datasets/en/kedro-datasets-6.0.0/api/kedro_datasets.html
