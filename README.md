@@ -166,7 +166,6 @@ Finally, further research could explore **alternative evaluation metrics and ret
 
 
 ## Acknowledgments
-This work was conducted as part of the **Social Computing Research Group** at the **TUM School of Computation, Information and Technology**, Technical University of Munich. 
 
 **Team Members**
 
