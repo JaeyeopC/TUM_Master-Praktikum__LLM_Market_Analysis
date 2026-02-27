@@ -225,13 +225,9 @@ poetry run kedro run --pipeline <pipeline_name> --nodes <node_name>
 
 ### Pipeline and Dataset Configuration
 
-Pipeline definitions are located in:
+Pipeline definitions are located in: `pipeline_registry.py`
 
-`pipeline_registry.py`
-
-Dataset configurations are defined in:
-
-`conf/base/catalog.yml`
+Dataset configurations are defined in: `conf/base/catalog.yml`
 
 Supported dataset types can be found in the Kedro datasets documentation:
 https://docs.kedro.org/projects/kedro-datasets/en/kedro-datasets-6.0.0/api/kedro_datasets.html
