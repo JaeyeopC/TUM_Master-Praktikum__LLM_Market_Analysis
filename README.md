@@ -98,6 +98,8 @@ Conceptually, this evaluation strategy aligns with the broader pattern known as 
 
 Research indicates that while LLM-as-judge approaches can be scalable and useful, they require careful design to ensure reliability and alignment with human intent, and should be considered **decision-support tools rather than definitive ground truth**.
 
+* Trulens : https://www.trulens.org/getting_started/
+
 ## Similarity Matching
 
 To identify comparable products across insurance providers, the project uses **embeddings combined with cosine similarity**.
