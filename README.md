@@ -176,7 +176,7 @@ These configurations include project-level settings such as dataset definitions,
 For more information about Kedro configuration, see the official documentation:  
 https://docs.kedro.org/en/stable/configuration/configuration_basics.html
 
----
+-
 
 ### Environment Setup
 
@@ -194,7 +194,7 @@ Activate the virtual environment:
 poetry shell
 ```
 
----
+-
 
 ### Running the Kedro Pipeline
 
@@ -226,7 +226,7 @@ Run a specific node inside a specific pipeline:
 poetry run kedro run --pipeline <pipeline_name> --nodes <node_name>
 ```
 
----
+-
 
 ### Pipeline and Dataset Configuration
 
