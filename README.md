@@ -28,8 +28,6 @@ The project explicitly states that **GPT-4o** is the primary model used for clas
 
 Finally, the system generates **product comparisons** by identifying similar products across providers using **embeddings and cosine similarity**.
 
-Cosine similarity is commonly defined as a **normalized dot product between vectors**, yielding a bounded similarity score used to compare embeddings.
-
 ---
 
 ## Repository Structure and Deliverables 
