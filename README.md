@@ -164,6 +164,90 @@ Additionally, the pipeline could be expanded to include **a broader range of ins
 
 Finally, further research could explore **alternative evaluation metrics and retrieval strategies**, including embedding-based validation methods or multi-model evaluation approaches to increase robustness.
 
+---
+## Configuration & Setup
+
+### Base Configuration
+
+The `conf/base/` folder contains **shared configuration files** used across the project.
+
+These configurations include project-level settings such as dataset definitions, pipeline parameters, and other non-sensitive settings that can be safely shared among team members.
+
+⚠️ **Important:**  
+Do **not store access credentials or sensitive information** in the `base` configuration folder.
+
+For more information about Kedro configuration, see the official documentation:  
+https://docs.kedro.org/en/stable/configuration/configuration_basics.html
+
+---
+
+### Environment Setup
+
+The project uses **Poetry** for dependency management and virtual environment handling.
+
+Install dependencies:
+
+```bash
+poetry install
+```
+
+Activate the virtual environment:
+
+```bash
+poetry shell
+```
+
+---
+
+### Running the Kedro Pipeline
+
+Run the entire pipeline:
+
+```bash
+poetry run kedro run
+```
+
+This executes the pipeline in the order specified in:
+
+`pipeline_registry.py`
+
+Run a specific node:
+
+```bash
+poetry run kedro run --node <node_name>
+```
+
+Run a specific pipeline:
+
+```bash
+poetry run kedro run --pipeline <pipeline_name>
+```
+
+Run a specific node inside a specific pipeline:
+
+```bash
+poetry run kedro run --pipeline <pipeline_name> --nodes <node_name>
+```
+
+---
+
+### Pipeline and Dataset Configuration
+
+Pipeline definitions are located in:
+
+`pipeline_registry.py`
+
+Dataset configurations are defined in:
+
+`conf/base/catalog.yml`
+
+Supported dataset types can be found in the Kedro datasets documentation:
+
+https://docs.kedro.org/projects/kedro-datasets/en/kedro-datasets-6.0.0/api/kedro_datasets.html
+
+
+---
+
 
 ## Acknowledgments
 
