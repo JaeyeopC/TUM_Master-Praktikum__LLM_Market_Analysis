@@ -85,9 +85,9 @@ The stages include:
 
 - **Crawled data** – raw data crawled from insurance company webpages  
 - **Filtered product pages** – irrelevant content removed  
-- **Filtered product markdowns** – normalized text representations  
+- **Filtered product markdowns** – converted to human-readable formats 
 - **Extracted product details** – structured fields derived from text  
-- **Classified product details** – product categories and attributes assigned via LLM classification  
+- **Classified product details** – product categories and attributes 
 - **Product comparison markdowns** – comparison outputs formatted for review and analysis  
 - **Evaluation artifacts** – metrics and evaluation outputs  
 
