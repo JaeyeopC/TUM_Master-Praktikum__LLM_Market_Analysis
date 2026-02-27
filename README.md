@@ -154,9 +154,7 @@ Run the entire pipeline:
 poetry run kedro run
 ```
 
-This executes the pipeline in the order specified in:
-
-`pipeline_registry.py`
+This executes the pipeline in the order specified in: `LAB-COMPETITIVE-ANALYSIS/lab_competitive_analysis/pipeline_registry.py`
 
 Run a specific node:
 
@@ -179,9 +177,11 @@ poetry run kedro run --pipeline <pipeline_name> --nodes <node_name>
 
 ### Pipeline and Dataset Configuration
 
-Pipeline definitions are located in: `pipeline_registry.py`
+Pipeline names are located in: `LAB-COMPETITIVE-ANALYSIS/lab_competitive_analysis/pipeline_registry.py`
 
 Dataset configurations are defined in: `conf/base/catalog.yml`
+
+Node names refers to directories under `LAB-COMPETITIVE-ANALYSIS/lab_competitive_analysis/`
 
 Supported dataset types can be found in the Kedro datasets documentation:
 https://docs.kedro.org/projects/kedro-datasets/en/kedro-datasets-6.0.0/api/kedro_datasets.html
