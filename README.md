@@ -83,15 +83,15 @@ The repository’s `data/` directory reflects a **multi-stage processing pipelin
 
 The stages include:
 
-- **Crawled data** – raw data crawled from insurance company webpages  
-- **Filtered product pages** – irrelevant content removed  
-- **Filtered product markdowns** – converted to human-readable formats 
-- **Extracted product details** – structured fields derived from text  
-- **Classified product details** – product categories and attributes 
-- **Product comparison markdowns** – comparison outputs formatted for review and analysis  
-- **Evaluation artifacts** – metrics and evaluation outputs  
+- **Crawled data** – raw data collected from insurance company webpages  
+- **Filtered product pages** – webpages filtered to retain only relevant product information  
+- **Filtered product markdowns** – webpages converted into normalized Markdown format  
+- **Extracted product details** – structured product information extracted from text and stored in JSON format  
+- **Classified product details** – product categories added to the structured data using LLM classification  
+- **Product comparison markdowns** – generated comparison tables for similar insurance products  
+- **Evaluation artifacts** – evaluation metrics and outputs, including the prompts used during the evaluation process
 
-This staged design follows **reproducible data engineering practices**, allowing iterative improvement of upstream steps (such as filtering or extraction) and direct observation of downstream impacts on comparisons and evaluations.
+This staged design follows **reproducible data engineering practices**, enabling iterative improvement of upstream steps and clear observation of downstream impacts on comparison and evaluation results under different prompting strategies.
 
 ---
 
