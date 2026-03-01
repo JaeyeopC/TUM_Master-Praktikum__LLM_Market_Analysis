@@ -82,13 +82,7 @@ For pipeline visibility and debugging, the project references **Kedro-Viz**, an 
 
 ## Evaluation
 
-For evaluation, the project uses **TruLens metrics**, specifically:
-
-- **Groundedness**
-- **Comprehensiveness**
-- **GroundTruthAgreement**
-
-TruLens documentation describes these metric families as:
+For evaluation, the project uses **TruLens metrics**. 
 
 - **Groundedness** – traceability of generated outputs to the original source information  
 - **Comprehensiveness** – coverage of relevant key points in the generated output  
